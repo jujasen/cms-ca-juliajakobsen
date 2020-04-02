@@ -1,8 +1,83 @@
 body {
     font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: #212121;
+}
+
+header {
+    background-image: url("../pics/home-page-header.jpg");
+    height: 700px;
+}
+.logo {
+    width: 300px;
+
+    float: right;
+}
+
+.tagline {
+    padding-right: 25px;
+    margin-top: 0;
+    font-family: 'Sen', sans-serif;
+    clear: right;
+    float: right;
 }
 
 .h1 {
+    clear: right;
     font-family: 'Sen', sans-serif;
     font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 230px;
+    color: #394f4c;
+}
+
+.product-button {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #e0aab9;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.product-button:hover {
+    background-color: #ebc0cb;
+}
+
+.links {
+    color: #212121;
+    text-decoration: none;
+}
+
+.results {
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    padding: 20px;
+}
+
+.details-button {
+    background-color: #394f4c;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
 }
