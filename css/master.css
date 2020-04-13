@@ -81,3 +81,22 @@ header {
     border-radius: 10px;
     font-weight: 700;
 }
+
+.result-details {
+    margin-top: 50px;
+}
+
+.details-image {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 300px;
+    
+}
+
+.detailrow {
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+    padding-bottom: 200px;
+}
+
